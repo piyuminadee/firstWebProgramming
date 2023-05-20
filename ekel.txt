@@ -1,0 +1,56 @@
+let name = "ChatBot";
+let year = 2023;
+console.log("Hello My name is" + name);
+console.log("I was created id" + year);
+VM2694:3 Hello My name isChatBot
+VM2694:4 I was created id2023
+undefined
+let name = "ChatBot";
+let year = 2023;
+console.log("Hello My name is " + name);
+console.log("I was created in " + year);
+VM2740:3 Hello My name is ChatBot
+VM2740:4 I was created in 2023
+undefined
+const name = "kelaniya";
+VM2813:1 Uncaught SyntaxError: Identifier 'name' has already been declared
+const nam = "kelaniya";
+undefined
+nam = "universiry";
+VM2891:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:5
+(anonymous) @ VM2891:1
+let firstNum;
+undefined
+let secondNum;
+undefined
+let operator;
+undefined
+let firstNum = 34;
+let secondNum = 56;
+undefined
+console.log("Sum of the two numbers: ", fir)
+VM3391:1 Uncaught ReferenceError: fir is not defined
+    at <anonymous>:1:41
+(anonymous) @ VM3391:1
+console.log("Sum of the two numbers: ", firstNum+secondNum);
+VM3450:1 Sum of the two numbers:  90
+undefined
+let radious = 78;
+console.log("Parameeter of the circle:", 2*3.14*radious);
+VM3685:2 Parameeter of the circle: 489.84000000000003
+undefined
+let radious = 78;
+console.log("Area of the circle:", 3.14*radious^2);
+VM3779:2 Area of the circle: 246
+undefined
+78*78
+6084
+let radious = 78;
+console.log("Area of the circle:", 3.14*(radious^2));
+VM3840:2 Area of the circle: 238.64000000000001
+undefined
+let radious = 78;
+console.log("Area of the circle:", 3.14*radious*radious);
+VM3928:2 Area of the circle: 19103.760000000002
+undefined
